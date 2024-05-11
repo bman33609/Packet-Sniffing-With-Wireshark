@@ -31,35 +31,54 @@
 
 <p align="center">
 Install Wireshark: <br/>
-<img src="https://i.imgur.com/tOhv4GD.png" alt="Vulnerability Scanning With Nmap"/>
+<img src="https://i.imgur.com/fu2wwyK.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
- Access help feature: <br/>
-<img src="https://i.imgur.com/6VD93Gq.png" height="80%" width="80%" alt="Vulnerability Scanning With Nmap"/>
+   For this excercise we will be capturing packets from the ethernet port: <br/>
+<img src="https://i.imgur.com/rLQfqFf.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-  Access man page: <br/>
-<img src="https://i.imgur.com/tqvE67t.png" height="80%" width="80%" alt="Vulnerability Scanning With Nmap"/>
+   Start a basic capture: <br/>
+<img src="https://i.imgur.com/xcukv53.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-   Use man page to reference scan type: <br/>
-<img src="https://i.imgur.com/HDNhdOr.png" height="80%" width="80%" alt="Vulnerability Scanning With Nmap"/>
+  Use display filter to detect HTTPS packets: <br/>
+<img src="https://i.imgur.com/9KOOP4l.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-Run a basic network scan:  <br/>
-<img src="https://i.imgur.com/Em91bfx.png" height="80%" width="80%" alt="Vulnerability Scanning With Nmap"/>
+   Use IP address filter to only display packets from a specific IP address: <br/>
+<img src="https://i.imgur.com/RZhZrjH.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-Run an aggressive scan:  <br/>
-<img src="https://i.imgur.com/2eBa5VM.png" height="80%" width="80%" alt="Vulnerability Scanning With Nmap"/>
+  Filter your capture to only display packets that exclude a specific IP address:<br/>
+<img src="https://i.imgur.com/nWM3zxo.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-
+Examine packet data for various data including destination IP, source IP, source port and packet length:  <br/>
+<img src="https://i.imgur.com/jkughK7.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<br />
+<br />
+ Use a destination IP filter:</br>
+<img src="https://i.imgur.com/tezhJGh.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<br />
+<br />
+  Use a source IP filter:</br>
+<img src="https://i.imgur.com/JtNKpOX.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<br />
+<br />
+ Now, lets try a TLS handshake filter:</br>
+<img src="https://i.imgur.com/85IMMby.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<br />
+<br />
+ Finally, we should always save our captures to a file for future reference or potential audits:</br>
+<img src="https://i.imgur.com/eMIa4mR.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<br />
+<br />
 </p>
 
 <h2>Findings:</h2>
 
-- <b> Wireshark is a very useful tool that can capture and analyze traffic throughout a network.</b> 
+- <b> Wireshark is a very useful tool that can capture,analyze and monitor traffic throughout a network.</b> 
 - <b> Wireshark can be used to analyze packets to help identify various data types including destination IP, source IP, transmission control protocol, source port, destination port and packet length.</b>
 - <b> The IP address filter (ip.addr==) can be useful for obtaining packet information for particular web sites.</b>
 - <b> The TLS handshake filter (tls.handshake.type==1) can be used to detect a website that was succesfully visited within a packet list.</b>

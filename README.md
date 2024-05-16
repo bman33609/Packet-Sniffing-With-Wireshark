@@ -20,12 +20,12 @@
 
 - <b>Install Wireshark on Ubuntu and set up Wireshark for non super users belonging to the Wireshark group.</b> 
 - <b>Start a capture while visiting web pages.</b>
-- <b>Save capture to a file.</b> 
 - <b>Use display filters to detect HTTP and HTTPS packets.</b> 
 - <b>Analyze packets to identify destination IP, source IP, transmission control protocol, source port, destination port and packet length.</b> 
 - <b>Use an IP address filter to only show capture results from a specific IP address.</b> 
 - <b>Use TLS handshake filter in order to only display TLS packets.</b>
-- <b>Add conditional statements to a display filter to allow Wiresahrk to include or exclude particular packets from the capture.</b>
+- <b>Add conditional statements to a display filter to allow Wireshark to include or exclude particular packets from the capture.</b>
+- <b>Save capture to a file.</b> 
 
 <h2>Program walk-through:</h2>
 
@@ -54,7 +54,7 @@ Install Wireshark: <br/>
 <img src="https://i.imgur.com/nWM3zxo.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
-Examine packet data for various data including destination IP, source IP, source port and packet length:  <br/>
+Examine packet for various data including destination IP, source IP, source port and packet length:  <br/>
 <img src="https://i.imgur.com/jkughK7.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
@@ -70,7 +70,7 @@ Examine packet data for various data including destination IP, source IP, source
 <img src="https://i.imgur.com/85IMMby.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
- Finally, we should always save our captures to a file for future reference or potential audits:</br>
+ Finally, we should always save our captures to a file for future reference or for potential audits:</br>
 <img src="https://i.imgur.com/eMIa4mR.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
@@ -87,12 +87,3 @@ Examine packet data for various data including destination IP, source IP, source
 
 
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>

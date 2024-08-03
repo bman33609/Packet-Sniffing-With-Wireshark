@@ -35,43 +35,43 @@ Install Wireshark: <br/>
 <br />
 <br />
    For this excercise we will be capturing packets from the ethernet port: <br/>
-<img src="https://i.imgur.com/rLQfqFf.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/k3tFpfk.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
    Start a basic capture: <br/>
-<img src="https://i.imgur.com/xcukv53.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/msozMrH.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
   Use display filter to detect HTTPS packets: <br/>
-<img src="https://i.imgur.com/9KOOP4l.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/ZV5c9NP.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
    Use IP address filter to only display packets from a specific IP address: <br/>
-<img src="https://i.imgur.com/RZhZrjH.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/oRk7pjs.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
   Filter your capture to only display packets that exclude a specific IP address:<br/>
-<img src="https://i.imgur.com/nWM3zxo.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/yhGoZ4p.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
 Examine packet for various data including destination IP, source IP, source port and packet length:  <br/>
-<img src="https://i.imgur.com/jkughK7.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/II5DYCb.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
  Use a destination IP filter:</br>
-<img src="https://i.imgur.com/tezhJGh.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/yBm6nlT.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
   Use a source IP filter:</br>
-<img src="https://i.imgur.com/JtNKpOX.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/BM4dxI1.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
  Now, lets try a TLS handshake filter:</br>
-<img src="https://i.imgur.com/85IMMby.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/c7oRhZ7.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
  Finally, we should always save our captures to a file for future reference or for potential audits:</br>
-<img src="https://i.imgur.com/eMIa4mR.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
+<img src="https://i.imgur.com/fvRegku.png" height="80%" width="80%" alt="Packet Sniffing With Wireshark"/>
 <br />
 <br />
 </p>
